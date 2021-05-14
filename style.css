@@ -1,0 +1,28 @@
+h1, h2, h3 {color: rgb(0,300,300);
+    font-size: 2em;
+   }
+    body{background-color: rgb(100, 74, 74);
+    font-size: 20px;
+    text-align: center;
+    }
+    ul {
+        text-align: center;
+    }
+    a {color: white}
+    .Hyperlinks{
+        color: rgb(214, 214, 214);
+        font-weight: bold;
+        line-height: 40px;
+        text-align: left;
+        margin-left: 550px;
+    }
+    .estilos{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    .listas {
+        font-style: italic;
+        line-height: 30px;
+        text-align: left;
+        margin-left: 550px;
+    }
