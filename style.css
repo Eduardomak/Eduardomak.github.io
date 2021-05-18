@@ -1,6 +1,17 @@
-h1, h2, h3 {color: rgb(0,300,300);
-    font-size: 2em;
-   }
+    .header {
+    color: rgb(0,300,300);
+    }
+    .Navigation {
+        display: inline-block;
+        position: absolute;
+        background-color: rosybrown;
+        left: 27.65%;
+    }
+    .Navigation-Li{
+        list-style-type: none;
+    }
+
+   
     body{background-color: rgb(100, 74, 74);
     font-size: 20px;
     text-align: center;
@@ -8,13 +19,17 @@ h1, h2, h3 {color: rgb(0,300,300);
     ul {
         text-align: center;
     }
+    li :hover{
+        color:black;
+    }
     a {color: white}
-    .Hyperlinks{
-        color: rgb(214, 214, 214);
+
+    .Hyper{
+        list-style-type: none;
+        text-align: center;
         font-weight: bold;
-        line-height: 40px;
-        text-align: left;
-        margin-left: 550px;
+        display: inline-block;
+        margin-left: 10px;
     }
     .estilos{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -22,7 +37,17 @@ h1, h2, h3 {color: rgb(0,300,300);
     }
     .listas {
         font-style: italic;
-        line-height: 30px;
-        text-align: left;
-        margin-left: 550px;
+        width: 30%;
+        text-align: center;
+        margin: 10px;
+        display: inline-block; 
+    }
+    .lista {
+        font-style: italic;
+        display: inline-block;
+    }
+    .habilidades {
+        color: chartreuse;
+        width: 20%;
+        margin: auto;
     }
